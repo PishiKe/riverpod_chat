@@ -4,7 +4,7 @@ import 'package:riverpod_chat/repositories/chat_repository.dart';
 
 final chatRepositoryProvider = Provider((ref) => ChatRepository());
 
-final messagesProvider = StreamProvider<List<Message>>((ref){
+final messagesStreamProvider = StreamProvider<List<Message>>((ref){
   final repo = ref.watch(chatRepositoryProvider);
   return repo.getMessagesStream();
 });
