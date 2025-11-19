@@ -55,6 +55,7 @@ app.*.map.json
 /ios/Runner/GoogleService-Info-QA.plist
 /ios/Runner/GoogleService-Info-UAT.plist
 /ios/Runner/GoogleService-Info-Prod.plist
+/lib/firebase_options.dart
 # Firebase Crashlytics
 /ios/Runner/Crashlytics-Info.plist
 # Firebase Performance
